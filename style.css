@@ -460,7 +460,7 @@ footer {
     display: none;
   }
   .left-side img {
-    width: 58%;
+    width: 70%;
     padding-left: 0;
   }
   .right-side a:last-child {
@@ -496,7 +496,8 @@ footer {
     width: 100%;
     bottom: 0;
     padding: 10px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
     align-items: center;
     justify-content: space-around;
   }
